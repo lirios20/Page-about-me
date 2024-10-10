@@ -1,0 +1,87 @@
+
+body {
+    background-color:honeydew;
+    margin: 0px;
+
+} 
+main{
+    margin-left:20px;
+    margin-right:20px
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    color: cadetblue;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:lightgray;
+    padding: 5px;
+
+}
+
+.nav_bar ul {
+    
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+}
+
+.nav_bar a{
+    float: none;
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    padding: 10px;
+    display: block;
+}
+
+.nav_bar a:hover{
+    background-color: lightblue;
+
+}
+.nav_bar li{
+    float:left;
+    text-align: center;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    float:left;
+    text-align: center;
+    margin-left: 25px;
+}
+.picture{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px; 
+}
+
+.Hobby ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Hobby ul li{
+    margin: 5px 0;
+}
+
+.Hobby ul li img{
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
